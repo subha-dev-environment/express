@@ -14,7 +14,7 @@ let quickAction;
 let ccEverywhere;
 
 function startSDK(data) {
-  loadScript('https://sdk.cc-embed.adobe.com/v3/CCEverywhere.js').then(async () => {
+  loadScript('https://dev.cc-embed.adobe.com/sdk/prbuilds/1p/PR-1338/CCEverywhere.js').then(async () => {
     if (!window.CCEverywhere) {
       return;
     }
